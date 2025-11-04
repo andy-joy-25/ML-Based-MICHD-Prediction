@@ -1,6 +1,8 @@
 # Machine Learning System for the Prediction of MICHD
 
-Git repository containing the implementation for the proposed solution described in 'Unveiling the Heart’s Secrets: Leveraging Machine Learning for the Prediction of MICHD', a classification-based model for predicting whether a given person would develop Myocardial Infarction or Coronary Heart Disease (MICHD) using health-related data.
+Team **MagicaL**: Anand Choudhary, Juan Garcia Giraldo, Luca Sbicego
+
+Git repository containing the implementation for the proposed solution described in '[Unveiling the Heart’s Secrets: Leveraging Machine Learning for the Prediction of MICHD](https://drive.google.com/file/d/1YQrS0y6cRY4-b7E3k-1GNGEt2KNzXGsC/view?usp=sharing)', a classification-based model for predicting whether a given person would develop Myocardial Infarction or Coronary Heart Disease (MICHD) using health-related data.
 
 ## Recreating predictions
 To recreate our best-performing model, please modify the ``DATA_PATH`` variable, which points to the dataset folder (containing ``x_train.csv,`` ``x_test.csv,`` and ``y_train.csv``). The ``run.py`` script will take approximately 4 minutes to perform data cleaning and preprocessing, and an additional 4 minutes to train our ensemble model.
